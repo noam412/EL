@@ -5,14 +5,14 @@ POST my-index-000001/_doc
       {
         "string_as_float": {
           "match_mapping_type": "string",
-          "match": "float-*",
+          "match": "Float-*",
           "runtime": {
             "type": "float"
           }
         },
         "string_as_fulltext": {
           "match_mapping_type": "string",
-          "match": "full-*",
+          "match": "Full-*",
           "runtime": {
             "type": "text"
           }
