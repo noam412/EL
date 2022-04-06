@@ -1,0 +1,7 @@
+POST movies/_doc/
+{
+  "genre": ["IMAX", "Sci-Fi"],
+  "title": "Intersteller",
+  "year": 2014,
+  "rating": 9
+}
